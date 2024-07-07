@@ -1,0 +1,3 @@
+# About configuration
+
+![](about.png)
