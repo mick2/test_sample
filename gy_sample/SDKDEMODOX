@@ -28,13 +28,13 @@
 #---------------------------------------------------------------------------
 
 # This tag specifies the encoding used for all characters in the configuration
-# file that follow. The default is UTF-8 which is also the encoding used for all
+# file that follow. The default is GB2312 which is also the encoding used for all
 # text before the first occurrence of this tag. Doxygen uses libiconv (or the
 # iconv built into libc) for the transcoding. See
 # https://www.gnu.org/software/libiconv/ for the list of possible encodings.
-# The default value is: UTF-8.
+# The default value is: GB2312.
 
-DOXYFILE_ENCODING      = UTF-8
+DOXYFILE_ENCODING      = GB2312
 
 # The PROJECT_NAME tag is a single word (or a sequence of words surrounded by
 # double-quotes, unless you are using Doxywizard) that should identify the
@@ -946,14 +946,14 @@ WARN_LOGFILE           =
 INPUT                  = doc
 
 # This tag can be used to specify the character encoding of the source files
-# that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
+# that doxygen parses. Internally doxygen uses the GB2312 encoding. Doxygen uses
 # libiconv (or the iconv built into libc) for the transcoding. See the libiconv
 # documentation (see:
 # https://www.gnu.org/software/libiconv/) for the list of possible encodings.
 # See also: INPUT_FILE_ENCODING
-# The default value is: UTF-8.
+# The default value is: GB2312.
 
-INPUT_ENCODING         = utf-8
+INPUT_ENCODING         = GB2312
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses The INPUT_FILE_ENCODING tag can be used to specify
